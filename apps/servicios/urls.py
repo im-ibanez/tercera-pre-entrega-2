@@ -5,10 +5,10 @@ from . import views
 # *********** URLS basadas en funciones
 # urlpatterns = [
 #     path("", views.index, name="index"),
-#     path("producto_categoria_listado/", views.producto_categoria_list, name="producto_categoria_list"),
-#     path("producto_categoria_create/", views.producto_categoria_create, name="producto_categoria_create"),
-#     path("producto_categoria_delete/<int:id>", views.producto_categoria_delete, name="producto_categoria_delete"),
-#     path("producto_categoria_update/<int:id>", views.producto_categoria_delete, name="producto_categoria_delete"),
+#     path("servicios_categorias_listado/", views.servicios_categorias_list, name="servicios_categorias_list"),
+#     path("servicios_categorias_create/", views.servicios_categorias_create, name="servicios_categorias_create"),
+#     path("servicios_categorias_delete/<int:id>", views.servicios_categorias_delete, name="servicios_categorias_delete"),
+#     path("servicios_categorias_update/<int:id>", views.servicios_categorias_delete, name="servicios_categorias_delete"),
 # ]
 
 # *********** URLS basadas en clases
