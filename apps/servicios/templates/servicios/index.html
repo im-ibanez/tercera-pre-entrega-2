@@ -1,0 +1,18 @@
+{% extends 'home/base.html' %}
+
+{% block content %}
+
+    <h1>Servicios</h1>
+    <div class="container">
+
+        {% block content_servicios %}
+
+            <h3>Categorías de Servicios</h3>
+
+            <a href="{% url 'servicios:serviciocategoria_form' %}">Crear</a> <br>
+            <a href="{% url 'servicios:serviciocategoria_list' %}">Listar</a> <br>
+
+        {% endblock content_servicios %}
+
+    </div>
+{% endblock content %}
